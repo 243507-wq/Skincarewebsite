@@ -1,0 +1,343 @@
+ 
+
+
+
+
+ .hero {
+  height: 100vh;
+  background: url('http://www.oasisdermatology.com/wp-content/uploads/2022/12/What-is-Cosmetic-Dermatology-Oasis-Dermatology-1000x658.jpg') no-repeat center center/cover;
+}
+
+.info-section {
+  background-color: #080808;
+  padding: 80px 0;  
+  color: white;
+}
+
+ 
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.dermatology-section {
+    background-color: #333333;  
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    padding: 80px 0;
+}
+
+.main-heading {
+    color: #FFD700; 
+    font-weight: 700;
+    font-size: 2.8rem;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.description {
+    font-size: 1.1rem;
+    color: #cccccc;
+    max-width: 600px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+.check-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 50px;
+}
+
+.check-list li {
+    display: flex;
+    align-items: center;
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+.check-list i {
+    color: #FFD700;  
+    margin-right: 15px;
+    font-size: 1.5rem;
+}
+
+.appointment-btn {
+    display: inline-block;
+    background-color: #FFD700;  
+    color: #000000;
+    text-decoration: none;
+    padding: 15px 40px;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.appointment-btn:hover {
+    background-color: #e6c200;
+    color: #000;
+    transform: translateY(-2px);
+}
+
+/* Background styling to match the image precisely */
+.stats-section {
+    background-color: #333333; /* Dark charcoal */
+    padding: 100px 0;
+    color: white;
+    font-family: sans-serif;
+}
+
+/* Container for each icon + text pair */
+.stat-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+/* Icon styling: Black icon with slight spacing */
+.icon-style {
+    font-size: 2.5rem;
+    color: #000000; /* Icons are black in the reference image */
+    margin-right: 20px;
+}
+
+ 
+.stat-content {
+    text-align: left;
+}
+
+ 
+.gold-num {
+    color: #FFD700;  
+    font-weight: bold;
+    font-size: 2.2rem;
+    margin-bottom: 0;
+}
+
+ 
+.stat-desc {
+    color: #ffffff;
+    font-size: 1rem;
+    margin: 0;
+}
+
+ 
+@media (max-width: 768px) {
+    .stat-box {
+        flex-direction: column;
+        text-align: center;
+    }
+    .stat-content {
+        text-align: center;
+    }
+    .icon-style {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+  }
+
+ 
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #333333;  
+    color: #ffffff;
+    font-family: sans-serif;
+}
+
+.info-section {
+    padding: 80px 0;
+}
+
+  */
+.main-title {
+    color: #FFD700;  
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+}
+
+.intro-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 40px;
+    max-width: 800px;
+}
+
+ 
+.divider {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    margin: 30px 0;
+    opacity: 1;
+}
+
+ 
+.feature-box {
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+    padding: 10px 0;
+}
+
+ 
+.icon-square {
+    background-color: #FFEA00;  
+    color: #151414;
+    width: 70px;
+    height: 70px;
+    min-width: 70px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.feature-content h3 {
+    color: #FFD700;  
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.feature-content p {
+    color: #ffffff;
+    line-height: 1.5;
+    margin: 0;
+}
+
+ 
+@media (max-width: 768px) {
+    .feature-box {
+        flex-direction: column;
+    }
+    .main-title {
+        font-size: 2rem;
+    }
+}
+
+/* Styling to match your previous sections */
+body {
+    background-color: #1c1b1b; /* Full black background */
+    margin: 0;
+    padding: 0;
+}
+
+.image-focus-section {
+    background-color: #2a2a2a;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+}
+
+.treatment-large-img {
+    border-radius: 60px; /* High-end rounded corners from your reference */
+    box-shadow: 0 20px 40px rgba(255, 255, 255, 0.05); /* Subtle glow for dark mode */
+    width: 100%;
+    max-height: 700px;
+    object-fit: cover;
+    border: 1px solid #333; /* Slight border to define the edge on black */
+}
+
+body {
+    background-color: #333333; /* Dark background matching the image */
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.expert-care-section {
+    padding: 80px 0;
+    color: #ffffff;
+}
+
+/* Image styling with rounded corners */
+.hero-img {
+    border-radius: 40px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    width: 100%;
+    height: auto;
+}
+
+/* Typography */
+.gold-heading {
+    color: #FFD700; /* Gold color */
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+    line-height: 1.2;
+}
+
+.description {
+    font-size: 1.1rem;
+    color: #e0e0e0;
+    margin-bottom: 35px;
+}
+
+/* Checklist Styling */
+.benefit-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 40px;
+}
+
+.benefit-list li {
+    display: flex;
+    align-items: center;
+    font-size: 1.15rem;
+    margin-bottom: 12px;
+    color: #ffffff;
+}
+
+.gold-check {
+    color: #FFD700;
+    margin-right: 15px;
+    font-size: 1.3rem;
+}
+
+/* Footer Link Styling */
+.cta-text {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.gold-link {
+    color: #FFD700;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.gold-link:hover {
+    color: #ffffff;
+}
+
+/* Core Layout */
+body {
+    background-color: #333333; /* Dark grey from the image */
+    margin: 0;
+    padding: 0;
+}
+
+.image-section {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+/* Matching the high-end rounded style */
+.treatment-img {
+    border-radius: 50px; /* Strong rounded corners like the reference */
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4); /* Professional shadow depth */
+    border: 2px solid #444; /* Subtle border for definition */
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+
+/* Subtle hover effect for extra quality */
+.treatment-img:hover {
+    transform: scale(1.02);
+}
